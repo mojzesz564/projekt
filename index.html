@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pl" />
+<head>
+	<title>
+		Fortepian
+	</title>
+	<link rel="shortcut icon" href="img/icon.png">
+	<meta charset="utf-8" />
+	<meta name="description" content="Strona o Fortepianie i pianistach. Dowiedz się o najpiękniejszym z instrumentów i o jego wirtuozach" />
+	<meta name="keywords" content="piano, music, pianist, pianists" />
+	<link href="https://fonts.googleapis.com/css?family=Lato|Parisienne&amp;subset=latin-ext" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Allura&amp;subset=latin-ext" rel="stylesheet">
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/fontello.css" type="text/css" />
+	<script src="jquery-3.4.0.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="jquery.scrollTo.min.js"></script>
+	<script>
+		jQuery(function($)
+		{
+			$.scrollTo(0);
+			$('#l1').click(function() { $.scrollTo($('#li1'), 500); });
+			$('#l2').click(function() { $.scrollTo($('#li2'), 500); });
+			$('#l3').click(function() { $.scrollTo($('#li3'), 500); });
+			$('#l4').click(function() { $.scrollTo($('#li4'), 500); });
+			$('#l5').click(function() { $.scrollTo($('#li5'), 500); });
+			$('#l6').click(function() { $.scrollTo($('#li6'), 500); });
+			$('#l7').click(function() { $.scrollTo($('#li7'), 600); });
+			$('#l8').click(function() { $.scrollTo($('#li8'), 700); });
+			$('#l9').click(function() { $.scrollTo($('#li9'), 800); });
+			$('#l10').click(function() { $.scrollTo($('#li10'), 900); });
+			$('#l11').click(function() { $.scrollTo($('#li11'), 1000); });
+			$('.scrollup').click(function() { $.scrollTo($('body'), 1000); });
+		}
+
+
+
+			);
+
+
+		
+	</script>
+	<script>
+		//Scrollup po przewijaniu
+		$(window).scroll(function()
+		{
+			if($(this).scrollTop()>300) $('.scrollup').fadeIn();
+			else $('.scrollup').fadeOut();
+		}
+
+
+
+			);
+	</script>
+	<script>
+        function zegarek()
+        {
+            var data = new Date();
+            var godzina = data.getHours();
+            var minuta = data.getMinutes();
+            var sekunda = data.getSeconds();
+          
+            
+            if (minuta < 10) minuta = "0" + minuta;
+            if (sekunda < 10) sekunda = "0" + sekunda;
+            
+            var pokazDate = godzina + ':' + minuta + ':' + sekunda;
+            document.getElementById("zegar").innerHTML = pokazDate;
+           
+            setTimeout(zegarek, 1000);            
+        }        
+    </script>
+
+</head>
+<body onload="zegarek();">
+	<a href="#" class="scrollup"></a>
+	<div id="container"> 
+		<header id="h1">
+		<div class="logo">Michał Letkiewicz - Fortepian</div>
+		<div id="zegar">12:00:00</div>
+		<div style="clear:both;"></div>
+	</header>
+		<nav class="nav"><ol>
+			<li><a id="l1" href="#">Historia </a></li>
+			<li><a id="l2" href="#">Pianiści </a>
+				<ul>
+					<li><a id="l3" href="#">Fryderyk Chopin</a></li>
+					<li><a id="l4" href="#">Ludwig van Beethoven</a></li>
+					<li><a id="l5" href="#">Wolfgang Amadeus Mozart</a></li>
+				</ul>
+			</li>
+			<li><a id="l6" href="#">Konkursy </a>
+				<ul>
+					<li><a id="l7" href="#">Konkurs im. Fryderyka Chopina</a></li>
+					<li><a id="l8" href="#">Konkurs im. Paderewskiego</a></li>
+					<li><a id="l9" href="#">Konkurs im. Czajkowskiego</a></li>
+					<li><a id="l10" href="#">Konkurs im. Królowej Elżbiety Belgijskiej</a></li>
+				</ul>
+			</li>
+			<li><a id="l11" href="#">O Autorze</a></li>
+			</ol>
+		</nav>
+		<blockquote>
+  Najdziwniejszym z ludzi jest geniusz: ten tak daleko w przyszłość wybiega, że ginie z oczu ludzi z nim żyjących, a nie wiadomo, które pokolenie pojąć go zdoła.
+  <span>Fryderyk Chopin</span>
+</blockquote>
+	
+	<main>
+		<article class="article"><div id="li1" ></div>
+			<header class="h2">Witaj na mojej stronie!</header>
+			Stronę tę stworzyłem jako zadanie. Opowiada o fortepianie, największy pianistach świata oraz najważniejszych konkursach pianistycznych na świecie. 
+		</article>
+		<article class="article">
+			<header class="h2">Historia fortepianu</header>
+			<img class="p1" src="img/p1.jpg"/>
+			Pierwsza wzmianka o fortepianie pochodzi z roku 1598 z listu Paliariona do księcia Modeny, w którym pisze on o instrumencie piano e forte (wł. „cicho i głośno”). Nie jest jednak jasne, czy chodziło o w pełni młoteczkowy instrument, czy jakąś odmianę innego, tradycyjnego instrumentu.<br>Fortepian wykształcił się z klawikordu. Twórcą instrumentu, który był protoplastą współczesnego fortepianu, był Bartolomeo Cristofori. W źródłach podaje się różne daty pojawienia się tego wynalazku, pomiędzy latami 1689 i 1709, choć najstarszy egzemplarz zachowany do naszych czasów pochodzi z roku 1720. Najczęściej za datę zbudowania pierwszego fortepianu podaje się rok 1711. Fortepian Cristoforiego, zwany clavicembalo col piano e forte, grający „cicho i głośno”, posiadał podwójne struny rozpięte na drewnianej ramie, ujęte w prostokątny korpus. Cristofori wyprodukował około dwudziestu takich instrumentów, po czym zaniechał produkcji, prawdopodobnie z powodu braku zainteresowania odbiorców.<br>Punktem zwrotnym we wczesnej historii fortepianu był entuzjastyczny artykuł autorstwa Scipione Maffeiego, w którym podane zostały szczegóły techniczne budowy instrumentu. Artykuł był kolportowany w całej Europie i spowodował u rzemieślników powrót zainteresowania budową tego instrumentu. Jednym z nich był Niemiec Johann Silbermann, który ulepszył konstrukcję fortepianu, m.in. przez wprowadzenie mechanizmu odłączania tłumika, który pozwalał na swobodne wybrzmiewanie strun. Z fortepianem Silbermanna w 1730 r. zapoznał się Jan Sebastian Bach, nie wykazał jednak większego zainteresowania. Dopiero ulepszony model z 1747 r. zyskał jego przychylność.
+			Ewolucję wczesnego fortepianu w instrument znany dzisiaj zawdzięczamy Ludwigowi van Beethovenowi i londyńskiemu wytwórcy fortepianów Broadwoodowi. Postępująca głuchota Beethovena wymagała coraz głośniejszych instrumentów. Fortepiany Broadwooda, produkowane specjalnie dla Beethovena, stawały się zatem coraz większe i głośniejsze. Ostatecznie producent wyposażył je w trzy struny dla każdego dźwięku, rozpięte na stalowej ramie. Kształt pudła rezonansowego instrumentu także zaczął zbliżać się do dzisiejszego. Stopniowo uległa też powiększeniu rozpiętość skali fortepianu. Tuż przed pierwszą połową XIX wieku osiągnęła 7 oktaw (od A subkontra do a czterokreślnego), później (pod koniec XIX w.) powiększono skalę do 7 i ¼ oktawy (tj. do c pięciokreślnego), przy czym jeszcze długo produkowano pianina o skali 7 oktaw. Rozpiętość 7 i ¼ oktawy jest standardem dla współczesnych fortepianów (88 dźwięków = klawiszy), od fortepianów gabinetowych do koncertowych (obecnie tę skalę posiadają także pianina, choć i 7-oktawowe bywają wciąż wytwarzane).
+		</article>
+		<article id="li2" class="article"><div></div>
+			<header class="h2">Pianiści</header>
+			Czymże byłby instrument, gdyby nie ludzie, którzy na nim grają. Oto jedynie kilku z największych pianistów wszechczasów!
+		</article>
+		<article id="li3" class="article">
+			<header class="h2">Fryderyk Chopin</header>
+			<img class="p2" src="img/chopin.jpg" />
+			Fryderyk Franciszek Chopin (fr. Frédéric Chopin; ur. 22 lutego lub 1 marca 1810 w Żelazowej Woli, zm. 17 października 1849 w Paryżu) – polski kompozytor i pianista. Od września 1831 roku mieszkał we Francji.<br>
+			Jest uważany za jednego z najwybitniejszych kompozytorów romantycznych, a także za jednego z najważniejszych polskich kompozytorów w historii. Był jednym z najsłynniejszych pianistów swoich czasów, często nazywany poetą fortepianu. Elementem charakterystycznym dla utworów Chopina jest pogłębiona ekspresja oraz czerpanie z wzorców stylistycznych polskiej muzyki ludowej.
+			Jego talent odkryto, gdy miał zaledwie kilka lat - wzmianki o genialnym dziecku szybko zachwyciły warszawską arystokrację. Twórca, nazywany poetą fortepianu, wychował się w Polsce, ale większość swojego życia spędził w Paryżu. Tam też zmarł na gruźlicę.
+			<div>
+				<br>Największe dzieła:
+				<ul>
+					<li>Etiuda rewolucyjna op. 10 nr 12</li>
+					<li>Polonez as-dur op. 53</li>
+					<li>Marsz pogrzebowy (3-cia część sonaty b-moll)</li>
+
+			</div>
+			<header class="h3"><br/><br/>Oto "Polonez op. 53", zwany Heroicznym fr.(Héroïque) w wykonaniu Janusza Olejniczaka</header>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/X0UJEx9S1bU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</article>
+		<article id="li4" class="article">
+			<header class="h2">Ludwig van Beethoven</header>
+			<img class="p2" src="img/p3.jpg" />
+			Ludwig van Beethoven (ur. 15-17 grudnia 1770 w Bonn, zm. 26 marca 1827 w Wiedniu) – kompozytor i pianista niemiecki, ostatni z tzw. klasyków wiedeńskich, a zarazem prekursor romantyzmu w muzyce, uznawany za jednego z największych twórców muzycznych wszech czasów.
+			<br>Urodzony w Bonn, na terenie dzisiejszych Niemiec, już w młodości przeniósł się do Wiednia, gdzie rychło uzyskał reputację pianisty wirtuoza, a następnie wybitnego kompozytora. Mimo że około 25. roku życia zaczął tracić słuch, okazał wielką siłę ducha i nie zaprzestał tworzenia (do czasu również wykonywania) swoich dzieł, nawet w okresie całkowitej głuchoty.
+			<br>	W historii muzyki stanowi centralną postać pogranicza klasycyzmu i romantyzmu. Jego twórczość wytyczyła kierunek rozwoju muzyki na cały XIX wiek. Światową popularność Beethoven zawdzięcza przede wszystkim swym dziewięciu symfoniom, choć równie przełomowe było znaczenie jego sonat i wariacji[3] fortepianowych oraz muzyki kameralnej, przede wszystkim kwartetów smyczkowych[5]. Muzyka Beethovena łączy intensywność uczuć z doskonałością formy; wyraża się w niej apoteoza wolności i godności jednostki, woli życia, heroizmu, zmagań z losem oraz radości i powszechnego braterstwa.
+			<div>
+				<br>Największe dzieła:
+				<ul>
+					<li>Dla Elizy</li>
+					<li>III Symfonia es-dur</li>
+					<li>V Symfonia c-moll</li>
+				</ul>
+			</div>
+			<header class="h3">Oto "Dla Elizy"</header>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/k_UOuSklNL4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</article>
+		<article id="li5" class="article">
+			<header class="h2">Wolfgang Amadeus Mozart</header>
+			<img class="p2" src="img/p4.jpg" />
+			Wolfgang Amadeus Mozart (w formie spolszczonej Wolfgang Amadeusz Mozart, ur. 27 stycznia 1756 w Salzburgu, zm. 5 grudnia 1791 w Wiedniu) – austriacki (często spotyka się również określenie niemiecki) kompozytor i wirtuoz gry na instrumentach klawiszowych, którego twórczość związana była głównie z austriackim Wiedniem. Razem z Haydnem oraz Beethovenem zaliczany jest do trójki tzw. „klasyków wiedeńskich”.<br>
+			Urodzony w Salzburgu, będącym wówczas stolicą niezależnego, w ramach Rzeszy, arcybiskupstwa (dopiero w latach 1805–1810 i ponownie od 1814 tereny te stały się częścią Cesarstwa Austriackiego). Był siódmym dzieckiem niemieckiego kompozytora Leopolda Mozarta oraz Anny Marii z domu Pertl[1]. Miał starszą o pięć lat siostrę Marię Annę nazywaną Nannerl, która także przejawiała uzdolnienia muzyczne. Razem z nią, kiedy miała 11 lat, mały Wolfgang grywał duety klawesynowe na zasłoniętej jedwabistym materiałem klawiaturze. Ojciec – Leopold Mozart – woził ich po całej Europie, przez co Wolfgang zaczął chorować. W roku 1761 skomponował swój pierwszy utwór – Menuet i Trio KV 1.<br>
+			Mimo iż Mozart żył niecałe 36 lat, zdążył pozostawić po sobie kilkaset skrzących się dowcipem i wyróżniających słynną mozartowską lekkością oraz melodyjnością utworów.
+			<div>
+				Największe dzieła:
+				<ul>
+					<li>Marsz Turecki</li>
+					<li>Eine Kleine Nachtmusik</li>
+					<li>Requiem d-moll</li>
+
+				</ul>
+			</div>
+				<header class="h3">Oto "Eine Kleine Nachtmusik"</header>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/FCi2u265wxQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			
+		</article>
+		<article id="li6" class="article">
+			<header class="h2">Najważniejsze konkursy pianistyczne świata</header>
+			Gromadzą najwybitniejszych i najbardziej utalentowanych pianistów z całego świata. Wyłaniają największych wirtuozów gry na tym instrumencie. Podlegają określonemu regulaminowi i są formą współzawodnictwa w dziedzinie odtwórczości muzycznej. Specjalnie powoływane jury zazwyczaj składają się z samych sław i niekwestionowanych autorytetów w branży.
+			
+		</article>
+		<article id="li7" class="article">
+			<header class="h2">Międzynarodowy Konkurs Pianistyczny im. Fryderyka Chopina</header>
+			Jest jednym z najstarszych, a zarazem najbardziej prestiżowych konkursów pianistycznych na świecie, a tym samym także w Polsce. Międzynarodowy Konkurs Pianistyczny im. Fryderyka Chopina należy do nielicznej grupy monograficznych konkursów pianistycznych, poświęconych wykonawstwu muzyki jednego kompozytora, jednego, ale w tym przypadku jakże wielkiego.
+			<br/>Pierwszy Konkurs Chopinowski odbył się w 1927 roku w Filharmonii Warszawskiej. Jego inicjatorem był Jerzy Żurawlew, wybitny polski pianista, pedagog i kompozytor. Następne odbywały się co pięć lat. Dopiero czwarty odbył się po wojennej przerwie w 1949 roku. Od 1955 Konkursy im. F. Chopina odbywają się regularnie co pięć lat. Od szesnastej edycji, która odbyła się w 2010 roku, konkurs organizowany jest przez Narodowy Instytut Fryderyka Chopina.
+			<br/>Od 1957 roku Konkurs Chopinowski należy do Światowej Federacji Międzynarodowych Konkursów Muzycznych w Genewie. Przesłuchania konkursowe przeprowadzane są w kilku etapach. Regulamin konkursu przewiduje zaś nagrody główne oraz szereg nagród specjalnych. Konkurs im. Fryderyka Chopina jest przeznaczony dla pianistów w wieku od 17 do 28 lat. Wśród laureatów I nagrody konkursu w 2005 roku znalazł się polski pianista Rafał Blechacz.
+		</article>
+		<article id="li8" class="article">
+			<header class="h2">Międzynarodowy Konkurs Pianistyczny im. Ignacego Jana Paderewskiego</header>
+			To kolejny odbywający się w Polsce, ale z założenia o randze międzynarodowej konkurs fortepianowy. Międzynarodowy Konkurs Pianistyczny im. I. J. Paderewskiego odbywa się co 3 lata w Bydgoszczy. Mogą brać w nim udział pianiści w wieku do 27 roku życia.
+			<br/>Pierwszy Konkurs odbył się w grudniu 1961 r. z inicjatywy dyrektora Filharmonii – Andrzeja Szwalbe oraz pianisty Henryka Sztompki (ucznia I.J. Paderewskiego), ale od 1994 r. jego organizatorem jest Towarzystwo Muzyczne im. I. J. Paderewskiego w Bydgoszczy.
+			<br/>Konkurs był elementem obchodów w 1960 r. tzw. Roku Ignacego Jana Paderewskiego i jednocześnie stanowił formę uhonorowania patrona Filharmonii Pomorskiej. Potem na długie lata zapomniano o imprezie. Reaktywacja nastąpiła w latach 80. i zbiegła się ze 125-leciem urodzin mistrza Paderewskiego (1985) i 45-leciem jego śmierci (1986).
+			<br/>W wyniku kilkuletnich starań zarządu Bydgoskiego Towarzystwa Muzycznego przyznano mu rolę głównego organizatora Międzynarodowych Konkursów Pianistycznych im. I. J. Paderewskiego. Współorganizatorami byli odtąd: Filharmonia Pomorska im. I. J. Paderewskiego i Akademia Muzyczna im. F. Nowowiejskiego w Bydgoszczy.
+		</article>
+		<article id="li9" class="article">
+			<header class="h2">Międzynarodowy Konkurs Muzyczny im. Piotra Czajkowskiego w Moskwie</header>
+			Odbywa się regularnie, co cztery lata, w Moskwie. Jest jednym z najbardziej prestiżowych konkursów dla instrumentalistów na świecie. Międzynarodowy Konkurs im. Piotra Czajkowskiego – bo o nim mowa, odbywa się od roku 1958. Od 2007 r. konkurs odbywa się zgodnie z czteroletnim harmonogramem. Podobnie jak polski konkurs Chopinowski należy do Światowej Federacji Międzynarodowych Konkursów Muzycznych z siedzibą w Genewie.
+			<br/>Konkurs dla instrumentalistów początkowo organizowany był jedynie w dwóch kategoriach – dla pianistów i skrzypków. W roku 1962 do listy dodano kategorię wiolonczelistów, a w 1966 r. wokalistów. Od 1990 roku wprowadzono jeszcze skrzypce, altówkę i wiolonczelę.
+			
+		</article>
+		<article id="li10"  class="article">
+			<header class="h2">Międzynarodowy Konkurs Muzyczny im. Królowej Elżbiety Belgijskiej</header>
+			Konkurs Muzyczny im. Królowej Elżbiety Belgijskiej to kolejny z listy najbardziej prestiżowych konkursów muzycznych, który swoją nazwę zyskał w 1965 roku na cześć Elżbiety Belgijskiej (Elżbiety Gabrieli Bawarskiej). Podobnie jak konkurs moskiewski obejmuje różne kategorie. W ich skład wchodzą skrzypce (1951), fortepian (1952), kompozycję (1953) oraz śpiew (1988). Konkurs odbywa się w Brukseli. Co najważniejsze, to właśnie on w 1957 roku został członkiem-założycielem Światowej Federacji Międzynarodowych Konkursów Muzycznych.
+			
+		</article>
+		<article id="li11" class="article0">
+			<header class="h2">O Autorze</header>
+			Nazywam się Michał Letkiewicz.<br>
+			Uczęszczam do Zespołu Szkół Technicznych w Rybniku. Moją pasją jest programowanie. W przyszłości zamierzam zająć się tym zawodowo. <br>
+			Jeśli podoba Ci się strona, lub masz jakieś pytania lub sugestie, zapraszam do kontaktu!
+			
+			<br><br>
+			<div id="mail"><div class="tekst"><i class="icon-mail"></i></div><div class="tekst2">mojzesz564@gmail.com</div></div>
+			<div id="tel"><div class="tekst"><i class="icon-phone-squared"></i></div><div class="tekst2">797580235</div>
+				
+			</div>
+			<a href="#"><div id="fb"><div class="tekst"><i class="icon-facebook"></i></div><div class="tekst2">Michał Letkiewicz</div></div></a>
+			<div style="clear:both;"></div>
+		</article>
+		
+	</main>
+	
+	</div>
+	<footer>
+		&copy; Michał Letkiewicz 2019 Wszelkie prawa zastrzeżone
+	</footer>
+	<script>
+		$(document).ready(function() {
+			// grab the initial top offset of the navigation 
+		   	var stickyNavTop = $('.nav').offset().top;
+		   	
+		   	// our function that decides weather the navigation bar should have "fixed" css position or not.
+		   	var stickyNav = function(){
+			    var scrollTop = $(window).scrollTop(); // our current vertical position from the top
+			         
+			    // if we've scrolled more than the navigation, change its position to fixed to stick to top,
+			    // otherwise change it back to relative
+			    if (scrollTop > stickyNavTop) { 
+			        $('.nav').addClass('sticky');
+			    } else {
+			        $('.nav').removeClass('sticky'); 
+			    }
+			};
+
+			stickyNav();
+			// and run it again every time you scroll
+			$(window).scroll(function() {
+				stickyNav();
+			});
+		});
+		</script>
+</body>
+</html>
